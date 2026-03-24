@@ -1,55 +1,44 @@
 #  Embedded Systems Training Repository
 
-Welcome to the **Embedded Systems Training Program** 📟  
+Welcome to the **Embedded Systems Training Program**
 This repository contains all the **core concepts, examples, and hands-on content** used for training.
 
 ---
 
 ##  What You Will Learn
 
-┌───────────────────────────────┬──────────────────────────────────────┐
-│ Topic                         │ Description                          │
-├───────────────────────────────┼──────────────────────────────────────┤
-│ GPIO                          │ Input/Output control of pins         │
-│ ADC                           │ Read analog values (sensors, pot)    │
-│ PWM                           │ Signal control (speed, power)        │
-│ Stepper Motor                 │ Controlled step-based movement       │
-│ UART                          │ Serial communication                 │
-│ RTC                           │ Time & date tracking                 │
-└───────────────────────────────┴──────────────────────────────────────┘
+| Topic            | Description                          |
+|------------------|--------------------------------------|
+| GPIO             | Input/Output control of pins         |
+| ADC              | Read analog values (sensors, pot)    |
+| PWM              | Signal control (speed, power)        |
+| Stepper Motor    | Controlled step-based movement       |
+| UART             | Serial communication                 |
+| RTC              | Time & date tracking                 |
 
 ---
 
-##  Learning Approach
+## Learning Approach
 
-┌───────────────────────────────┬──────────────────────────────────────┐
-│ Step                          │ What You Do                          │
-├───────────────────────────────┼──────────────────────────────────────┤
-│ Concept                       │ Understand basics                    │
-│ Code                          │ Run simple examples                  │
-│ Hardware                      │ Connect real components              │
-│ Practice                      │ Build mini projects                  │
-└───────────────────────────────┴──────────────────────────────────────┘
+| Step       | What You Do                |
+|------------|---------------------------|
+| Concept    | Understand basics         |
+| Code       | Run simple examples       |
+| Hardware   | Connect real components   |
+| Practice   | Build mini projects       |
+---
+##  Hardware Used
+
+| Component              | Purpose               |
+|------------------------|-----------------------|
+| ESP32                 | Microcontroller       |
+| LED                   | Output testing        |
+| Push Button           | Input testing         |
+| Potentiometer         | Analog input          |
+| Stepper Motor + Driver| Motion control        |
+| RTC Module            | Time tracking         |
 
 ---
-
-## ️ Hardware Used
-
-┌────────────── ─────────────────┬──────────────────────────────────────┐
-│ Component                     │ Purpose                              │
-├────────────── ─────────────────┼──────────────────────────────────────┤
-│ ESP32                         │ Microcontroller                      │
-│ LED                           │ Output testing                       │
-│ Push Button                   │ Input testing                        │
-│ Potentiometer                 │ Analog input                         │
-│ Stepper Motor + Driver        │ Motion control                       │
-│ RTC Module                    │ Time tracking                        │
-└───────────────────────────────┴──────────────────────────────────────┘
-
----
-
----
-
 ##  Training Outcome
 
 By the end of this training, you will be able to:
@@ -79,13 +68,14 @@ By the end of this training, you will be able to:
 
 ---
 
-## Notes  
+## Note
+
 - Follow step-by-step modules  
-- Practice is key   
+- Practice is key  
 
 ---
 
-##  Contribution
+## Contribution
 
 Feel free to contribute, improve examples, or add projects.
 
@@ -93,5 +83,7 @@ Feel free to contribute, improve examples, or add projects.
 
 ## Authors
 
-**Sathwik K D**and **Gowtham M A  
-Embedded Systems & Backend Developers, Vithsutra Technologies Pvt.Ltd  
+**Sathwik KD** and 
+**Gowtham MA**
+[Embedded Systems & Backend Developers]
+
