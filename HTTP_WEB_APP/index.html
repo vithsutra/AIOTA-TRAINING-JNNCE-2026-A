@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>IoT Temperature Dashboard</title>
+</head>
+<body style="text-align:center; font-family:Arial;">
+
+  <h1>🌡 Live Temperature</h1>
+  <h2 id="temp">-- °C</h2>
+
+  <script>
+    async function fetchData() {
+      const res = await fetch("http://SERVER_IP:3000/data");
+      const data = await res.json();
+
+      document.getElementById("temp").innerText =
+        data.temperature + " °C";
+    }
+
+    setInterval(fetchData, 1000);
+  </script>
+
+</body>
+</html>
